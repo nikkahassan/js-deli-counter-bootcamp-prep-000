@@ -1,7 +1,7 @@
 var numbers = []
 
 function takeANumber(numbers) {
-  var newOrder = numbers.push(numbers.length) 
+  var newOrder = numbers.push(numbers.length + 1)
 return (`Welcome, you are number ${newOrder} in line.`)
 }
 function nowServing(deliLine) {

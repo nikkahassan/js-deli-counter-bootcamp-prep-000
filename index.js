@@ -1,6 +1,8 @@
-function takeANumber(deliLine) {
-var newIndex = deliLine.push()
-return (`Welcome, you are number ${newIndex} in line.`)
+var numbers = []
+
+function takeANumber(numbers) {
+  var newOrder = numbers.push(numbers.length)
+return (`Welcome, you are number ${newOrder} in line.`)
 }
 function nowServing(deliLine) {
   if (deliLine.length === 0) {

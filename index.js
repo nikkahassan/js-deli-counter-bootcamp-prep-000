@@ -1,4 +1,4 @@
-var numbers = []
+var numbers = [5,6]
 
 function takeANumber(numbers) {
   var newOrder = numbers.push(numbers.length + 1)
